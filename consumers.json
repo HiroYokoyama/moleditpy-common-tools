@@ -1,7 +1,6 @@
 {
   "moleditpy-mcp_server": {
     "files": {
-      "plugin_api_checker.py": "tests/plugin_api_checker.py",
       "update_zenodo.py": "scripts/update_zenodo.py",
       "release_common.py": "scripts/release_common.py"
     },
@@ -30,7 +29,6 @@
   },
   "moleditpy-plugin-template": {
     "files": {
-      "plugin_api_checker.py": "tests/plugin_api_checker.py",
       "release_common.py": "scripts/release_common.py"
     },
     "release_config": {
@@ -55,7 +53,6 @@
   },
   "moleditpy_3d-molecule-on-2d": {
     "files": {
-      "plugin_api_checker.py": "tests/plugin_api_checker.py",
       "release_common.py": "scripts/release_common.py"
     },
     "release_config": {
@@ -71,7 +68,6 @@
   },
   "moleditpy_3d_functional_group_replacer": {
     "files": {
-      "plugin_api_checker.py": "tests/plugin_api_checker.py",
       "release_common.py": "scripts/release_common.py"
     },
     "release_config": {
@@ -96,7 +92,6 @@
   },
   "moleditpy_auto_rotator": {
     "files": {
-      "plugin_api_checker.py": "tests/plugin_api_checker.py",
       "release_common.py": "scripts/release_common.py"
     },
     "release_config": {
@@ -112,7 +107,6 @@
   },
   "moleditpy_camera_position_setter": {
     "files": {
-      "plugin_api_checker.py": "tests/plugin_api_checker.py",
       "release_common.py": "scripts/release_common.py"
     },
     "release_config": {
@@ -128,7 +122,6 @@
   },
   "moleditpy_cif_viewer": {
     "files": {
-      "plugin_api_checker.py": "tests/plugin_api_checker.py",
       "update_zenodo.py": "scripts/update_zenodo.py",
       "release_common.py": "scripts/release_common.py"
     },
@@ -157,7 +150,6 @@
   },
   "moleditpy_cp2k_input_generator": {
     "files": {
-      "plugin_api_checker.py": "tests/plugin_api_checker.py",
       "materialize_shared.py": "scripts/materialize_shared.py",
       "release_common.py": "scripts/release_common.py"
     },
@@ -192,7 +184,6 @@
   },
   "moleditpy_gaussian_input_generator_pro": {
     "files": {
-      "plugin_api_checker.py": "tests/plugin_api_checker.py",
       "update_zenodo.py": "scripts/update_zenodo.py",
       "release_common.py": "scripts/release_common.py"
     },
@@ -221,7 +212,6 @@
   },
   "moleditpy_group_template": {
     "files": {
-      "plugin_api_checker.py": "tests/plugin_api_checker.py",
       "release_common.py": "scripts/release_common.py"
     },
     "release_config": {
@@ -246,7 +236,6 @@
   },
   "moleditpy_job_manager": {
     "files": {
-      "plugin_api_checker.py": "tests/plugin_api_checker.py",
       "release_common.py": "scripts/release_common.py"
     },
     "release_config": {
@@ -271,7 +260,6 @@
   },
   "moleditpy_molecule_styler": {
     "files": {
-      "plugin_api_checker.py": "tests/plugin_api_checker.py",
       "release_common.py": "scripts/release_common.py"
     },
     "release_config": {
@@ -287,7 +275,6 @@
   },
   "moleditpy_nics_placer": {
     "files": {
-      "plugin_api_checker.py": "tests/plugin_api_checker.py",
       "update_zenodo.py": "scripts/update_zenodo.py",
       "release_common.py": "scripts/release_common.py"
     },
@@ -316,7 +303,6 @@
   },
   "moleditpy_nmr_predicator_nmrshiftdb2": {
     "files": {
-      "plugin_api_checker.py": "tests/plugin_api_checker.py",
       "release_common.py": "scripts/release_common.py"
     },
     "release_config": {
@@ -339,7 +325,6 @@
   },
   "moleditpy_nmr_predictor_cascade": {
     "files": {
-      "plugin_api_checker.py": "tests/plugin_api_checker.py",
       "release_common.py": "scripts/release_common.py"
     },
     "release_config": {
@@ -364,7 +349,6 @@
   },
   "moleditpy_opsin_name_to_structure": {
     "files": {
-      "plugin_api_checker.py": "tests/plugin_api_checker.py",
       "release_common.py": "scripts/release_common.py"
     },
     "release_config": {
@@ -389,7 +373,6 @@
   },
   "moleditpy_orca_input_generator_pro": {
     "files": {
-      "plugin_api_checker.py": "tests/plugin_api_checker.py",
       "update_zenodo.py": "scripts/update_zenodo.py",
       "release_common.py": "scripts/release_common.py"
     },
@@ -418,7 +401,6 @@
   },
   "moleditpy_orca_nics_analyzer": {
     "files": {
-      "plugin_api_checker.py": "tests/plugin_api_checker.py",
       "update_zenodo.py": "scripts/update_zenodo.py",
       "release_common.py": "scripts/release_common.py"
     },
@@ -447,7 +429,6 @@
   },
   "moleditpy_orca_result_analyzer_plugin": {
     "files": {
-      "plugin_api_checker.py": "tests/plugin_api_checker.py",
       "update_zenodo.py": "scripts/update_zenodo.py",
       "release_common.py": "scripts/release_common.py"
     },
@@ -474,14 +455,8 @@
       ]
     }
   },
-  "moleditpy_orca_result_analyzer_rust": {
-    "files": {
-      "plugin_api_checker.py": "tests/plugin_api_checker.py"
-    }
-  },
   "moleditpy_pyscf-calculator": {
     "files": {
-      "plugin_api_checker.py": "tests/plugin_api_checker.py",
       "update_zenodo.py": "scripts/update_zenodo.py",
       "release_common.py": "scripts/release_common.py"
     },
@@ -511,7 +486,6 @@
   },
   "moleditpy_quantum_espresso_input_generator": {
     "files": {
-      "plugin_api_checker.py": "tests/plugin_api_checker.py",
       "materialize_shared.py": "scripts/materialize_shared.py",
       "release_common.py": "scripts/release_common.py"
     },
@@ -546,7 +520,6 @@
   },
   "moleditpy_reaction_sketcher_plugin": {
     "files": {
-      "plugin_api_checker.py": "tests/plugin_api_checker.py",
       "release_common.py": "scripts/release_common.py"
     },
     "release_config": {
@@ -571,7 +544,6 @@
   },
   "moleditpy_reshiki_importer": {
     "files": {
-      "plugin_api_checker.py": "tests/plugin_api_checker.py",
       "release_common.py": "scripts/release_common.py"
     },
     "release_config": {
@@ -587,7 +559,6 @@
   },
   "moleditpy_rotation_giffer": {
     "files": {
-      "plugin_api_checker.py": "tests/plugin_api_checker.py",
       "release_common.py": "scripts/release_common.py"
     },
     "release_config": {
@@ -603,7 +574,6 @@
   },
   "moleditpy_slab_builder": {
     "files": {
-      "plugin_api_checker.py": "tests/plugin_api_checker.py",
       "materialize_shared.py": "scripts/materialize_shared.py",
       "release_common.py": "scripts/release_common.py"
     },
@@ -637,7 +607,6 @@
   },
   "moleditpy_strain_homodesmotic_reaction_generator": {
     "files": {
-      "plugin_api_checker.py": "tests/plugin_api_checker.py",
       "update_zenodo.py": "scripts/update_zenodo.py",
       "release_common.py": "scripts/release_common.py"
     },
@@ -666,7 +635,6 @@
   },
   "moleditpy_vasp_input_generator": {
     "files": {
-      "plugin_api_checker.py": "tests/plugin_api_checker.py",
       "materialize_shared.py": "scripts/materialize_shared.py",
       "release_common.py": "scripts/release_common.py"
     },
@@ -701,8 +669,6 @@
   },
   "moleditpy-plugins": {
     "files": {
-      "plugin_api_checker.py": "api-checker/plugin_api_checker.py",
-      "check_api.py": "api-checker/check_api.py",
       "update_zenodo.py": "scripts/update_zenodo.py"
     },
     "zenodo_config": {
