@@ -1,0 +1,847 @@
+{
+  "moleditpy-mcp_server": {
+    "files": {
+      "plugin_api_checker.py": "tests/plugin_api_checker.py",
+      "update_zenodo.py": "scripts/update_zenodo.py",
+      "release_common.py": "scripts/release_common.py"
+    },
+    "zenodo_config": {
+      "deposition_id": "21716545"
+    },
+    "release_config": {
+      "source": "mcp_server/__init__.py",
+      "title": "MoleditPy MCP Server",
+      "package": "mcp_server",
+      "archive": "mcp_server_{version}.zip",
+      "assets": [
+        "mcp_server_{version}.zip"
+      ],
+      "include": [
+        "README.md",
+        "LICENSE",
+        "COPYING",
+        "LICENSING.md"
+      ],
+      "exclude": [
+        "*/__pycache__/*",
+        "*/.git/*"
+      ]
+    }
+  },
+  "moleditpy-plugin-template": {
+    "files": {
+      "plugin_api_checker.py": "tests/plugin_api_checker.py",
+      "release_common.py": "scripts/release_common.py"
+    },
+    "release_config": {
+      "source": "my_plugin/__init__.py",
+      "title": "My Plugin",
+      "package": "my_plugin",
+      "archive": "my_plugin_{version}.zip",
+      "assets": [
+        "my_plugin_{version}.zip"
+      ],
+      "include": [
+        "README.md",
+        "LICENSE",
+        "COPYING",
+        "LICENSING.md"
+      ],
+      "exclude": [
+        "*/__pycache__/*",
+        "*/.git/*"
+      ]
+    }
+  },
+  "moleditpy_3d-molecule-on-2d": {
+    "files": {
+      "plugin_api_checker.py": "tests/plugin_api_checker.py",
+      "release_common.py": "scripts/release_common.py"
+    },
+    "release_config": {
+      "source": "3d_molecule_on_2d.py",
+      "title": "3D Molecule on 2D",
+      "assets": [
+        "3d_molecule_on_2d.py",
+        "LICENSE",
+        "COPYING",
+        "LICENSING.md"
+      ]
+    }
+  },
+  "moleditpy_3d_functional_group_replacer": {
+    "files": {
+      "plugin_api_checker.py": "tests/plugin_api_checker.py",
+      "release_common.py": "scripts/release_common.py"
+    },
+    "release_config": {
+      "source": "functional_group_replacer_3d/__init__.py",
+      "title": "3D Functional Group Replacer",
+      "package": "functional_group_replacer_3d",
+      "archive": "functional_group_replacer_3d_{version}.zip",
+      "assets": [
+        "functional_group_replacer_3d_{version}.zip"
+      ],
+      "include": [
+        "README.md",
+        "LICENSE",
+        "COPYING",
+        "LICENSING.md"
+      ],
+      "exclude": [
+        "*/__pycache__/*",
+        "*/.git/*"
+      ]
+    }
+  },
+  "moleditpy_auto_rotator": {
+    "files": {
+      "plugin_api_checker.py": "tests/plugin_api_checker.py",
+      "release_common.py": "scripts/release_common.py"
+    },
+    "release_config": {
+      "source": "auto_rotator.py",
+      "title": "Auto Rotator",
+      "assets": [
+        "auto_rotator.py",
+        "LICENSE",
+        "COPYING",
+        "LICENSING.md"
+      ]
+    }
+  },
+  "moleditpy_camera_position_setter": {
+    "files": {
+      "plugin_api_checker.py": "tests/plugin_api_checker.py",
+      "release_common.py": "scripts/release_common.py"
+    },
+    "release_config": {
+      "source": "camera_position_setter.py",
+      "title": "Camera Position Setter",
+      "assets": [
+        "camera_position_setter.py",
+        "LICENSE",
+        "COPYING",
+        "LICENSING.md"
+      ]
+    }
+  },
+  "moleditpy_cif_viewer": {
+    "files": {
+      "plugin_api_checker.py": "tests/plugin_api_checker.py",
+      "update_zenodo.py": "scripts/update_zenodo.py",
+      "release_common.py": "scripts/release_common.py"
+    },
+    "zenodo_config": {
+      "deposition_id": "21483187"
+    },
+    "release_config": {
+      "source": "cif_viewer/__init__.py",
+      "title": "CIF Viewer",
+      "package": "cif_viewer",
+      "archive": "cif_viewer_{version}.zip",
+      "assets": [
+        "cif_viewer_{version}.zip"
+      ],
+      "include": [
+        "README.md",
+        "LICENSE",
+        "COPYING",
+        "LICENSING.md"
+      ],
+      "exclude": [
+        "*/__pycache__/*",
+        "*/.git/*"
+      ]
+    }
+  },
+  "moleditpy_cp2k_input_generator": {
+    "files": {
+      "plugin_api_checker.py": "tests/plugin_api_checker.py",
+      "materialize_shared.py": "scripts/materialize_shared.py",
+      "release_common.py": "scripts/release_common.py"
+    },
+    "materialize_config": {
+      "package": "cp2k_input_generator",
+      "files": [
+        "cell_model.py",
+        "elements.py",
+        "cell_preview.py",
+        "structure_panel.py"
+      ]
+    },
+    "release_config": {
+      "source": "cp2k_input_generator/__init__.py",
+      "title": "CP2K Input Generator",
+      "package": "cp2k_input_generator",
+      "archive": "cp2k_input_generator_{version}.zip",
+      "assets": [
+        "cp2k_input_generator_{version}.zip"
+      ],
+      "include": [
+        "README.md",
+        "LICENSE",
+        "COPYING",
+        "LICENSING.md"
+      ],
+      "exclude": [
+        "*/__pycache__/*",
+        "*/.git/*"
+      ]
+    }
+  },
+  "moleditpy_gaussian_input_generator_pro": {
+    "files": {
+      "plugin_api_checker.py": "tests/plugin_api_checker.py",
+      "update_zenodo.py": "scripts/update_zenodo.py",
+      "release_common.py": "scripts/release_common.py"
+    },
+    "zenodo_config": {
+      "deposition_id": "21694465"
+    },
+    "release_config": {
+      "source": "gaussian_input_generator_pro/__init__.py",
+      "title": "Gaussian Input Generator Pro",
+      "package": "gaussian_input_generator_pro",
+      "archive": "gaussian_input_generator_pro_{version}.zip",
+      "assets": [
+        "gaussian_input_generator_pro_{version}.zip"
+      ],
+      "include": [
+        "README.md",
+        "LICENSE",
+        "COPYING",
+        "LICENSING.md"
+      ],
+      "exclude": [
+        "*/__pycache__/*",
+        "*/.git/*"
+      ]
+    }
+  },
+  "moleditpy_group_template": {
+    "files": {
+      "plugin_api_checker.py": "tests/plugin_api_checker.py",
+      "release_common.py": "scripts/release_common.py"
+    },
+    "release_config": {
+      "source": "group_template/__init__.py",
+      "title": "Group Template",
+      "package": "group_template",
+      "archive": "group_template_{version}.zip",
+      "assets": [
+        "group_template_{version}.zip"
+      ],
+      "include": [
+        "README.md",
+        "LICENSE",
+        "COPYING",
+        "LICENSING.md"
+      ],
+      "exclude": [
+        "*/__pycache__/*",
+        "*/.git/*"
+      ]
+    }
+  },
+  "moleditpy_job_manager": {
+    "files": {
+      "plugin_api_checker.py": "tests/plugin_api_checker.py",
+      "release_common.py": "scripts/release_common.py"
+    },
+    "release_config": {
+      "source": "job_manager/__init__.py",
+      "title": "Job Manager",
+      "package": "job_manager",
+      "archive": "job_manager_{version}.zip",
+      "assets": [
+        "job_manager_{version}.zip"
+      ],
+      "include": [
+        "README.md",
+        "LICENSE",
+        "COPYING",
+        "LICENSING.md"
+      ],
+      "exclude": [
+        "*/__pycache__/*",
+        "*/.git/*"
+      ]
+    }
+  },
+  "moleditpy_molecule_styler": {
+    "files": {
+      "plugin_api_checker.py": "tests/plugin_api_checker.py",
+      "release_common.py": "scripts/release_common.py"
+    },
+    "release_config": {
+      "source": "molecule_styler.py",
+      "title": "Molecule Styler",
+      "assets": [
+        "molecule_styler.py",
+        "LICENSE",
+        "COPYING",
+        "LICENSING.md"
+      ]
+    }
+  },
+  "moleditpy_nics_placer": {
+    "files": {
+      "plugin_api_checker.py": "tests/plugin_api_checker.py",
+      "update_zenodo.py": "scripts/update_zenodo.py",
+      "release_common.py": "scripts/release_common.py"
+    },
+    "zenodo_config": {
+      "deposition_id": "20785770"
+    },
+    "release_config": {
+      "source": "nics_placer/__init__.py",
+      "title": "NICS Placer",
+      "package": "nics_placer",
+      "archive": "nics_placer_{version}.zip",
+      "assets": [
+        "nics_placer_{version}.zip"
+      ],
+      "include": [
+        "README.md",
+        "LICENSE",
+        "COPYING",
+        "LICENSING.md"
+      ],
+      "exclude": [
+        "*/__pycache__/*",
+        "*/.git/*"
+      ]
+    }
+  },
+  "moleditpy_nmr_predicator_nmrshiftdb2": {
+    "files": {
+      "plugin_api_checker.py": "tests/plugin_api_checker.py",
+      "release_common.py": "scripts/release_common.py"
+    },
+    "release_config": {
+      "source": "nmr_predicator_nmrshiftdb2/__init__.py",
+      "title": "NMR Predicator (NMRShiftDB2)",
+      "package": "nmr_predicator_nmrshiftdb2",
+      "archive": "nmr_predicator_nmrshiftdb2_{version}.zip",
+      "assets": [
+        "nmr_predicator_nmrshiftdb2_{version}.zip"
+      ],
+      "include": [
+        "README.md",
+        "LICENSE"
+      ],
+      "exclude": [
+        "*/__pycache__/*",
+        "*/.git/*"
+      ]
+    }
+  },
+  "moleditpy_nmr_predictor_cascade": {
+    "files": {
+      "plugin_api_checker.py": "tests/plugin_api_checker.py",
+      "release_common.py": "scripts/release_common.py"
+    },
+    "release_config": {
+      "source": "nmr_predictor_cascade/__init__.py",
+      "title": "NMR Predictor (CASCADE)",
+      "package": "nmr_predictor_cascade",
+      "archive": "nmr_predictor_cascade_{version}.zip",
+      "assets": [
+        "nmr_predictor_cascade_{version}.zip"
+      ],
+      "include": [
+        "README.md",
+        "LICENSE",
+        "COPYING",
+        "LICENSING.md"
+      ],
+      "exclude": [
+        "*/__pycache__/*",
+        "*/.git/*"
+      ]
+    }
+  },
+  "moleditpy_opsin_name_to_structure": {
+    "files": {
+      "plugin_api_checker.py": "tests/plugin_api_checker.py",
+      "release_common.py": "scripts/release_common.py"
+    },
+    "release_config": {
+      "source": "opsin_name_to_structure/__init__.py",
+      "title": "OPSIN Name to Structure",
+      "package": "opsin_name_to_structure",
+      "archive": "opsin_name_to_structure_{version}.zip",
+      "assets": [
+        "opsin_name_to_structure_{version}.zip"
+      ],
+      "include": [
+        "README.md",
+        "LICENSE",
+        "COPYING",
+        "LICENSING.md"
+      ],
+      "exclude": [
+        "*/__pycache__/*",
+        "*/.git/*"
+      ]
+    }
+  },
+  "moleditpy_orca_input_generator_pro": {
+    "files": {
+      "plugin_api_checker.py": "tests/plugin_api_checker.py",
+      "update_zenodo.py": "scripts/update_zenodo.py",
+      "release_common.py": "scripts/release_common.py"
+    },
+    "zenodo_config": {
+      "deposition_id": "21483184"
+    },
+    "release_config": {
+      "source": "orca_input_generator_pro/__init__.py",
+      "title": "ORCA Input Generator Pro",
+      "package": "orca_input_generator_pro",
+      "archive": "orca_input_generator_pro_{version}.zip",
+      "assets": [
+        "orca_input_generator_pro_{version}.zip"
+      ],
+      "include": [
+        "README.md",
+        "LICENSE",
+        "COPYING",
+        "LICENSING.md"
+      ],
+      "exclude": [
+        "*/__pycache__/*",
+        "*/.git/*"
+      ]
+    }
+  },
+  "moleditpy_orca_nics_analyzer": {
+    "files": {
+      "plugin_api_checker.py": "tests/plugin_api_checker.py",
+      "update_zenodo.py": "scripts/update_zenodo.py",
+      "release_common.py": "scripts/release_common.py"
+    },
+    "zenodo_config": {
+      "deposition_id": "21731441"
+    },
+    "release_config": {
+      "source": "orca_nics_analyzer/__init__.py",
+      "title": "ORCA NICS Analyzer",
+      "package": "orca_nics_analyzer",
+      "archive": "orca_nics_analyzer_{version}.zip",
+      "assets": [
+        "orca_nics_analyzer_{version}.zip"
+      ],
+      "include": [
+        "README.md",
+        "LICENSE",
+        "COPYING",
+        "LICENSING.md"
+      ],
+      "exclude": [
+        "*/__pycache__/*",
+        "*/.git/*"
+      ]
+    }
+  },
+  "moleditpy_orca_result_analyzer_plugin": {
+    "files": {
+      "plugin_api_checker.py": "tests/plugin_api_checker.py",
+      "update_zenodo.py": "scripts/update_zenodo.py",
+      "release_common.py": "scripts/release_common.py"
+    },
+    "zenodo_config": {
+      "deposition_id": "21483169"
+    },
+    "release_config": {
+      "source": "orca_result_analyzer/__init__.py",
+      "title": "ORCA Result Analyzer",
+      "package": "orca_result_analyzer",
+      "archive": "orca_result_analyzer_{version}.zip",
+      "assets": [
+        "orca_result_analyzer_{version}.zip"
+      ],
+      "include": [
+        "README.md",
+        "LICENSE",
+        "COPYING",
+        "LICENSING.md"
+      ],
+      "exclude": [
+        "*/__pycache__/*",
+        "*/.git/*"
+      ]
+    }
+  },
+  "moleditpy_orca_result_analyzer_rust": {
+    "files": {
+      "plugin_api_checker.py": "tests/plugin_api_checker.py"
+    }
+  },
+  "moleditpy_pyscf-calculator": {
+    "files": {
+      "plugin_api_checker.py": "tests/plugin_api_checker.py",
+      "update_zenodo.py": "scripts/update_zenodo.py",
+      "release_common.py": "scripts/release_common.py"
+    },
+    "zenodo_config": {
+      "deposition_id": "21483140"
+    },
+    "release_config": {
+      "source": "pyscf_calculator/__init__.py",
+      "title": "PySCF Calculator",
+      "package": "pyscf_calculator",
+      "archive": "pyscf_calculator_{version}.zip",
+      "assets": [
+        "pyscf_calculator_{version}.zip"
+      ],
+      "include": [
+        "README.md",
+        "LICENSE",
+        "LICENSING.md",
+        "GEOMETRIC_EXCEPTION",
+        "licenses"
+      ],
+      "exclude": [
+        "*/__pycache__/*",
+        "*/.git/*"
+      ]
+    }
+  },
+  "moleditpy_quantum_espresso_input_generator": {
+    "files": {
+      "plugin_api_checker.py": "tests/plugin_api_checker.py",
+      "materialize_shared.py": "scripts/materialize_shared.py",
+      "release_common.py": "scripts/release_common.py"
+    },
+    "materialize_config": {
+      "package": "qe_input_generator",
+      "files": [
+        "cell_model.py",
+        "elements.py",
+        "cell_preview.py",
+        "structure_panel.py"
+      ]
+    },
+    "release_config": {
+      "source": "qe_input_generator/__init__.py",
+      "title": "Quantum ESPRESSO Input Generator",
+      "package": "qe_input_generator",
+      "archive": "qe_input_generator_{version}.zip",
+      "assets": [
+        "qe_input_generator_{version}.zip"
+      ],
+      "include": [
+        "README.md",
+        "LICENSE",
+        "COPYING",
+        "LICENSING.md"
+      ],
+      "exclude": [
+        "*/__pycache__/*",
+        "*/.git/*"
+      ]
+    }
+  },
+  "moleditpy_reaction_sketcher_plugin": {
+    "files": {
+      "plugin_api_checker.py": "tests/plugin_api_checker.py",
+      "release_common.py": "scripts/release_common.py"
+    },
+    "release_config": {
+      "source": "reaction_sketcher/__init__.py",
+      "title": "Reaction Sketcher",
+      "package": "reaction_sketcher",
+      "archive": "reaction_sketcher_{version}.zip",
+      "assets": [
+        "reaction_sketcher_{version}.zip"
+      ],
+      "include": [
+        "README.md",
+        "LICENSE",
+        "COPYING",
+        "LICENSING.md"
+      ],
+      "exclude": [
+        "*/__pycache__/*",
+        "*/.git/*"
+      ]
+    }
+  },
+  "moleditpy_reshiki_importer": {
+    "files": {
+      "plugin_api_checker.py": "tests/plugin_api_checker.py",
+      "release_common.py": "scripts/release_common.py"
+    },
+    "release_config": {
+      "source": "reshiki_importer.py",
+      "title": "ReShiki Importer",
+      "assets": [
+        "reshiki_importer.py",
+        "LICENSE",
+        "COPYING",
+        "LICENSING.md"
+      ]
+    }
+  },
+  "moleditpy_rotation_giffer": {
+    "files": {
+      "plugin_api_checker.py": "tests/plugin_api_checker.py",
+      "release_common.py": "scripts/release_common.py"
+    },
+    "release_config": {
+      "source": "rotation_giffer.py",
+      "title": "Rotation Giffer",
+      "assets": [
+        "rotation_giffer.py",
+        "LICENSE",
+        "COPYING",
+        "LICENSING.md"
+      ]
+    }
+  },
+  "moleditpy_slab_builder": {
+    "files": {
+      "plugin_api_checker.py": "tests/plugin_api_checker.py",
+      "materialize_shared.py": "scripts/materialize_shared.py",
+      "release_common.py": "scripts/release_common.py"
+    },
+    "materialize_config": {
+      "package": "slab_builder",
+      "files": [
+        "cell_model.py",
+        "elements.py",
+        "cell_preview.py"
+      ]
+    },
+    "release_config": {
+      "source": "slab_builder/__init__.py",
+      "title": "Slab Builder",
+      "package": "slab_builder",
+      "archive": "slab_builder_{version}.zip",
+      "assets": [
+        "slab_builder_{version}.zip"
+      ],
+      "include": [
+        "README.md",
+        "LICENSE",
+        "COPYING",
+        "LICENSING.md"
+      ],
+      "exclude": [
+        "*/__pycache__/*",
+        "*/.git/*"
+      ]
+    }
+  },
+  "moleditpy_strain_homodesmotic_reaction_generator": {
+    "files": {
+      "plugin_api_checker.py": "tests/plugin_api_checker.py",
+      "update_zenodo.py": "scripts/update_zenodo.py",
+      "release_common.py": "scripts/release_common.py"
+    },
+    "zenodo_config": {
+      "deposition_id": "20785796"
+    },
+    "release_config": {
+      "source": "strain_homodesmotic_reaction_generator/__init__.py",
+      "title": "Strain Homodesmotic Reaction Generator",
+      "package": "strain_homodesmotic_reaction_generator",
+      "archive": "strain_homodesmotic_reaction_generator_{version}.zip",
+      "assets": [
+        "strain_homodesmotic_reaction_generator_{version}.zip"
+      ],
+      "include": [
+        "README.md",
+        "LICENSE",
+        "COPYING",
+        "LICENSING.md"
+      ],
+      "exclude": [
+        "*/__pycache__/*",
+        "*/.git/*"
+      ]
+    }
+  },
+  "moleditpy_vasp_input_generator": {
+    "files": {
+      "plugin_api_checker.py": "tests/plugin_api_checker.py",
+      "materialize_shared.py": "scripts/materialize_shared.py",
+      "release_common.py": "scripts/release_common.py"
+    },
+    "materialize_config": {
+      "package": "vasp_input_generator",
+      "files": [
+        "cell_model.py",
+        "elements.py",
+        "cell_preview.py",
+        "structure_panel.py"
+      ]
+    },
+    "release_config": {
+      "source": "vasp_input_generator/__init__.py",
+      "title": "VASP Input Generator",
+      "package": "vasp_input_generator",
+      "archive": "vasp_input_generator_{version}.zip",
+      "assets": [
+        "vasp_input_generator_{version}.zip"
+      ],
+      "include": [
+        "README.md",
+        "LICENSE",
+        "COPYING",
+        "LICENSING.md"
+      ],
+      "exclude": [
+        "*/__pycache__/*",
+        "*/.git/*"
+      ]
+    }
+  },
+  "moleditpy-plugins": {
+    "files": {
+      "plugin_api_checker.py": "api-checker/plugin_api_checker.py",
+      "check_api.py": "api-checker/check_api.py",
+      "update_zenodo.py": "scripts/update_zenodo.py"
+    },
+    "zenodo_config": {
+      "deposition_id": "21522477"
+    }
+  },
+  "moleditpy_pmeff-plugin": {
+    "files": {
+      "update_zenodo.py": "scripts/update_zenodo.py",
+      "release_common.py": "scripts/release_common.py"
+    },
+    "zenodo_config": {
+      "deposition_id": "21716781"
+    },
+    "release_config": {
+      "source": "pmeff_plugin/__init__.py",
+      "title": "PMEFF Plugin",
+      "package": "pmeff_plugin",
+      "archive": "pmeff_plugin_{version}.zip",
+      "assets": [
+        "pmeff_plugin_{version}.zip"
+      ],
+      "include": [
+        "README.md",
+        "LICENSE",
+        "COPYING",
+        "LICENSING.md"
+      ],
+      "exclude": [
+        "*/__pycache__/*",
+        "*/.git/*",
+        "*/settings.json"
+      ]
+    }
+  },
+  "python_molecular_editor": {
+    "files": {
+      "update_zenodo.py": "scripts/update_zenodo.py"
+    },
+    "zenodo_config": {
+      "deposition_id": "20463243",
+      "sandbox_deposition_id": "506735"
+    }
+  },
+  "moleditpy_blender-export-pro": {
+    "files": {
+      "release_common.py": "scripts/release_common.py"
+    },
+    "release_config": {
+      "source": "blender_export_pro/__init__.py",
+      "title": "Blender Export Pro",
+      "package": "blender_export_pro",
+      "archive": "blender_export_pro_{version}.zip",
+      "assets": [
+        "blender_export_pro_{version}.zip"
+      ],
+      "include": [
+        "README.md",
+        "LICENSE",
+        "COPYING",
+        "LICENSING.md"
+      ],
+      "exclude": [
+        "*/__pycache__/*",
+        "*/.git/*",
+        "*/settings.json"
+      ]
+    }
+  },
+  "moleditpy_DECIMER_plugin": {
+    "files": {
+      "release_common.py": "scripts/release_common.py"
+    },
+    "release_config": {
+      "source": "decimer_plugin/__init__.py",
+      "title": "MoleditPy DECIMER Plugin",
+      "package": "decimer_plugin",
+      "archive": "decimer_plugin_{version}.zip",
+      "assets": [
+        "decimer_plugin_{version}.zip"
+      ],
+      "include": [
+        "README.md",
+        "LICENSE",
+        "COPYING",
+        "LICENSING.md"
+      ],
+      "exclude": [
+        "*/__pycache__/*",
+        "*/.git/*"
+      ]
+    }
+  },
+  "moleditpy_openbabel_optimizer": {
+    "files": {
+      "release_common.py": "scripts/release_common.py"
+    },
+    "release_config": {
+      "source": "openbabel_optimizer/__init__.py",
+      "title": "Open Babel Optimizer",
+      "package": "openbabel_optimizer",
+      "archive": "openbabel_optimizer_{version}.zip",
+      "assets": [
+        "openbabel_optimizer_{version}.zip"
+      ],
+      "include": [
+        "README.md",
+        "LICENSE"
+      ],
+      "exclude": [
+        "*/__pycache__/*",
+        "*/.git/*"
+      ]
+    }
+  },
+  "moleditpy_pets_in_editor": {
+    "files": {
+      "release_common.py": "scripts/release_common.py"
+    },
+    "release_config": {
+      "source": "pets_in_editor/__init__.py",
+      "title": "Pets in Editor",
+      "package": "pets_in_editor",
+      "archive": "pets_in_editor_{version}.zip",
+      "assets": [
+        "pets_in_editor_{version}.zip"
+      ],
+      "include": [
+        "README.md",
+        "LICENSE",
+        "COPYING",
+        "LICENSING.md"
+      ],
+      "exclude": [
+        "*/__pycache__/*",
+        "*/.git/*",
+        "*/settings.json",
+        "*/settings.tmp"
+      ]
+    }
+  }
+}
